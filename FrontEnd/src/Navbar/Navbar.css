@@ -1,0 +1,62 @@
+.Navbar {
+  /* הדיב שעוטף הכל*/
+  width: 100%;
+  height: 70px;
+  background-color: #D3E0DC;
+  border-bottom: 1px solid #da9e9e;
+  display: flex;
+  align-items: center;
+}
+
+.profileright {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.allItemscenter {
+  flex: 6;
+
+}
+
+.Navbar .pagesItemsUl {
+  /*ul  רשימה לא ממוספרת*/
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar .pagesItemsUl li {
+  /*li פריטים*/
+  margin-right: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  padding: 8px;
+  list-style: none;
+}
+
+.Navbar .pagesItemsUl li:hover {
+  color: #6a9292;
+  text-decoration: underline;
+}
+
+.Navbar .pagesItemsUl li a {
+  text-decoration: none;
+  color: #da9e9e;
+  padding-right: 10px;
+
+}
+
+.Navbar .pagesItemsUl li a:hover {
+  color: #6a9292;
+}
+
+.logo {
+  /*לוגו*/
+  height: 70px;
+  width: 80px;
+  padding: 10px;
+}

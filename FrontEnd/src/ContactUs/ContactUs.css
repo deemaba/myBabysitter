@@ -1,0 +1,49 @@
+.cotactaroundall{
+    background-image:url("/public/Img/contactus7.jfif") ;
+    background-size:100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.contactUsTitle{
+  margin-top: 185px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#ea8b90 ;
+  border-bottom: #8b9788 4px double;
+}
+.cotactaround .contactItemsUl{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  
+  
+}
+.cotactaround .contactItemsUl li{
+    margin-right: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 8px;
+    list-style: none;
+    color: #ea8b90; 
+     
+}
+.cotactaround .contactItemsUl li a{
+   text-decoration: none;
+   color: #8b9788;
+   padding-right: 10px;
+   font-size: x-large;
+   
+}
+.cotactaround .contactItemsUl li a:hover{
+  font-size: xx-large;
+}
+

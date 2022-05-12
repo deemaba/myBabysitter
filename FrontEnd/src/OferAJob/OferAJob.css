@@ -1,0 +1,98 @@
+.oferajoball {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+
+
+}
+
+.oferajoball .leftSide {
+  height: 100%;
+  flex: 50%;
+  background-image: url("/public/Img/babygallery8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.oferajoball .rightSide {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.oferajoball .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px;
+  margin-right: 150px;
+  color: #60706b;
+  margin-bottom: 30px;
+
+}
+
+.oferajob-form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  margin-bottom: 150px;
+}
+
+.oferajob-form input {
+  height: 25px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #8b9788;
+  color: #8b9788;
+  margin-top: 20px;
+}
+
+.oferajob-form .oferajob-textarea {
+  margin-top: 15px;
+  height: 70px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #8b9788;
+  color: #8b9788;
+}
+
+.oferajob-form input::placeholder,
+.oferajob-textarea::placeholder {
+  font-weight: bold;
+  color: #8b9788;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.oferajob-form input:focus,
+.oferajob-textarea:focus {
+  outline: none;
+}
+
+.oferajob-form label {
+  margin-top: 20px;
+  color: #7a5456;
+  font-size: medium;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 650px;
+}
+
+.submitJob {
+  margin-top: 40px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #6d7d78;
+  color: #7a5456;
+  font-size: medium;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 200px;
+}

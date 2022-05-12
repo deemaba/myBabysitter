@@ -1,0 +1,101 @@
+.signupall {
+  /* עיצוב לדיב שעוטף*/
+  display: flex;
+  justify-content: center;
+  background-image: url('/public/Img/young-mother.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.formsingup {
+  /* עיצוב לטופס עצמו*/
+  align-items: center;
+  position: relative;
+  display: flex;
+  width: 500px;
+  height: 700px;
+  margin-right: 10px;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-top: 130px;
+  margin-left: 28em;
+  color: #858583;
+  padding: 50px;
+  font-weight: bold;
+  border-radius: 20px;
+
+  margin-bottom: 30px;
+  break-after: page;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px 0px, rgb(0 0 0 / 15%) 0px -1px 2px 0px;
+}
+
+
+
+
+.formsingup input,
+.formsingup select {
+  /*עיצוב תיבות*/
+  width: 100%;
+  padding: 3px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#fname,
+#lname {
+  /* עיצוב ספיציפי לתיבת השם*/
+  width: 49%;
+  margin-left: 3px;
+}
+
+.Submit {
+  /* עיצוב תיבת ההרשמה */
+  width: 100%;
+  background-color: #f1bbbb;
+  color: #858583;
+  margin: 3px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.input1:hover {
+  background-color: #facaca;
+}
+
+input:invalid {
+  /* עיצוב כשיש טעות בהקלדה*/
+  background-color: #f5c6c6;
+}
+
+.titlel {
+  /* עיצוב לכותרת*/
+  margin-bottom: 10px;
+  color: #c48a8a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 1.6rem;
+
+}
+
+.para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #858583;
+}
+
+.alogin {
+  font-weight: 600;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: #c48a8a;
+  text-decoration: underline;
+  padding-left: 7px;
+}

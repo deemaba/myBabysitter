@@ -1,0 +1,70 @@
+.findaroundall {
+  background-image: url("/public/Img/3748.png");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.searchall {
+  /*דיב עוטף*/
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+}
+
+.formsearch {
+  /* טופס*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 400px;
+}
+
+.allsearch {
+  margin-top: 30px;
+}
+
+.formsearch legend {
+  /* title form*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: #84a89f;
+
+}
+
+.formsearch input {
+  margin-top: 10px;
+}
+
+.buttonsearch {
+  margin-top: 5px;
+  background-color: #84a89f;
+  margin-left: 300px;
+  border-radius: 10px;
+}
+
+.noresultdiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-right: 560px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 0px 1px 10px 5px #da9e9e;
+  border-radius: 80px;
+}
+
+.noresultspan {
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #7a5456;
+  margin-top: 30px;
+  margin-left: 5px;
+}

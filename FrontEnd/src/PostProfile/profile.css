@@ -1,0 +1,48 @@
+.registerbabysitterall {
+    background-image: url("/public/Img/young-mother-newborn-baby-white-bedroom.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 155vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Profileall {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    box-shadow: 0px 1px 10px 5px #7a5456;
+    margin-top: 60px;
+    margin-left: 1000px;
+}
+
+.formbabysitterregister legend {
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #7a5456;
+}
+
+.formbabysitterregister label {
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formbabysitterregister input {
+    margin-top: 10px;
+}
+
+.SubmitPost {
+    width: 50%;
+    background-color: #7a5456;
+    color: #1b1516;
+    margin: 3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}

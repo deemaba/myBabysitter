@@ -1,0 +1,67 @@
+.postprofileall {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding: 48px 24px 32px;
+    flex-direction: column;
+}
+
+.divh2 {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+}
+
+.postprofileh2 {
+    line-height: 1.25;
+    word-break: break-word;
+    font-weight: 700;
+    margin: 0px;
+    color: #a77878;
+    font-size: 28px;
+}
+
+.divpostprofile1 {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+}
+
+.divPostprofile2 {
+    line-height: 1.25;
+    word-break: break-word;
+    font-weight: 700;
+    color: #7b8d8a;
+    font-size: 16px;
+}
+
+.postprofile-a {
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    white-space: nowrap;
+    /* position: relative; */
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    padding: 12px 16px;
+    color: #a77878;
+    background-color: #D3E0DC;
+    border-color: #aebeba;
+    width: fit-content;
+    margin-left: 540px;
+    margin-top: 20px;
+
+}

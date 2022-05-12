@@ -1,0 +1,56 @@
+.photo{/*כללי לכל התמונות*/
+	width:250px;
+	height: 250px;
+	border-radius: 2px;
+	 box-shadow:0 20px 40px rosybrown ;
+     position: absolute;  
+	z-index:10 ;
+	outline-offset:20px;
+	transition: all 0.2s; 
+	margin-top: 50px; 
+	
+}
+/*.homeinnerelm{/*דיב שעוטף את כל הגלרייה בדף ההום */
+	/* height: 600px; */
+	
+	
+
+ .gallery1{/* דיב שעוטף את התמונות בתוך home jason*/
+	width:1000px;
+	margin: 0 auto;
+	position: relative; 
+	/* display: flex;
+	justify-content: center; */
+}
+.photo1{/* תמונה הכי שמאלית */
+	top:0;
+	left: 0;
+}
+.photo2{/*תמונה הכי ימנית*/
+	top:0;
+	right: 0;
+	z-index: 1;
+}
+.photo3{/* שנייה*/
+top:40px;
+left: 20%;	
+}
+.photo4{/*אמצע*/
+	top:60px;
+	left:40%;
+}
+.photo5{/*רביעית*/
+	top:40px;
+	left:60%;
+	z-index: 2 ;
+}
+.photo:hover{
+	outline: 10px solid #f8b7b7;
+    transition:scale(1.02) translateY(-10px);
+	z-index:20; /*When elements are positioned, they can overlap other elements*/
+}
+
+/* <div class='gallery1'><img class='photo photo1' src='./Img/babygallery11.jpg'/> <img class='photo photo2' src='././Img/baby1.jpg'/><img class='photo photo3' src='./Img/babygallery12.jpg'/><img class='photo photo4' src='./Img/babygallery2.jpg'/><img class='photo photo5' src='./Img/baby.jpg'/></div>*/
+
+
+

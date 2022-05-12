@@ -1,0 +1,56 @@
+.Footer{/* פוטר הדיב המרכזי שעוטף את הכל*/
+    width: 100%;
+    background-color:#D3E0DC;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #da9e9e;
+    font-size:  1.3rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Footer .allItems,.social, .copyrightall{/* הדיבים העוטפים*/
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.followus{
+    margin-top: 25px;
+ 
+}
+
+.Footer .pagesItemsUl,.socialItemsUl,.copyrightUl{/*ul  רשימה לא ממוספרת*/
+    display: flex;
+    
+}
+
+
+
+.Footer .pagesItemsUl li,.socialItemsUl li,.copyrightUl li{/*li פריטים*/
+   list-style: none;
+   margin-right: 10px;
+  
+}
+.socialItemsUl li a{
+    font-size: xx-large;
+}
+
+
+.Footer .pagesItemsUl li a,.socialItemsUl li a {/* לינק*/
+    text-decoration: none;
+    color:#da9e9e;
+    padding-right: 10px;
+ }
+ .Footer .pagesItemsUl li a:hover,.socialItemsUl li a:hover{
+    color: #6a9292;
+ }
+
+.Footer .pagesItemsUl li:not(:last-child){/* לא לבן האחרון כלומר לפריט האחרון*/
+    border-right: solid 2px #da9e9e;
+}
+
+
+

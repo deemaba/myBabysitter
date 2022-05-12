@@ -1,0 +1,94 @@
+.loginall {
+  /* הדיב שעוטף הכל*/
+  background-image: url("/public/Img/signin.jfif");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 120vh;
+
+}
+
+.formlogin {
+  /*  הטופס עצמו*/
+  margin-top: 2px;
+  position: relative;
+  display: flex;
+  width: 350px;
+  height: 400px;
+  background-color: transparent;
+  font-size: 0.9rem;
+  line-height: 30px;
+  color: #5b4343;
+  padding: 56px 80px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  break-after: page;
+  box-shadow: 0px 1px 10px 5px #da9e9e;
+}
+
+
+.formlogin input {
+  /* תיבות*/
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.login {
+  width: 100%;
+  min-height: 30px;
+  max-height: 30px;
+  padding: 0px 16px;
+  border-color: initial;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  border-width: 3px;
+  border-style: solid;
+  color: #120f0f;
+  opacity: 0.7;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.labellogin {
+  color: #5b4343;
+}
+
+.logindiv {
+  margin-top: 30px;
+
+}
+
+
+.login:hover {
+  background-color: #8b6060;
+}
+
+input:invalid {
+  background-color: #8b6060;
+}
+
+.logmy {
+  /* legend title*/
+  margin-bottom: 10px;
+  color: #463535;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+
+
+}
